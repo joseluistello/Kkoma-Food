@@ -43,7 +43,7 @@
               </template>
 
               <template v-else>
-                <router-link to="/log-in" class="button is-light">Log in</router-link>
+                <router-link to="/log-in" class="button is-light">Iniciar Sesion</router-link>
               </template>
 
               <router-link to="/cart" class="button is-success">
@@ -69,6 +69,17 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showMobileMenu: false,
+      }
+    }
+  }
+</script>
+
 
 
 <style lang="scss">
