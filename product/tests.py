@@ -1,5 +1,5 @@
 from django.test import TestCase
-from models import Category, Product
+from .models import Category, Product
 
 class CategoryModelTest(TestCase):
 
@@ -21,7 +21,7 @@ class ProductModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls) -> None:
-        Product.objects.create(category='Bebidas', name='Pepsi', slug='/Pepsi-600-ml', description='Compre en paquetes de 6', price='$600', image='pepsi.jpge', thumbnail='pepsi1.jpge', data_added='500')
+        Product.objects.create(name='Pepsi', slug='/Pepsi-600-ml', description='Compre en paquetes de 6', price='$600', image='pepsi.jpge', thumbnail='pepsi1.jpge', data_added='500')
 
     def test_category_content(self):
         product = Product.objects.get(id=1)
