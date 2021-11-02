@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Category 
+from .models import Category, Product
 
 class CategoryModelTest(TestCase):
 
@@ -21,4 +21,18 @@ class ProductModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls) -> None:
-        Category.objects.create()
+        Product.objects.create(category='', name='', slug='', description='', price='', image='', thumbnail='', data_added='')
+
+    def test_category_content(self):
+        product = Product.objects.get(id=1)
+        expected_object_name = f'{product.}'
+        self.assertEqual(expected_object_name, '')
+
+    def test_category_content(self):
+        product = Product.objects.get(id=1)
+        expected_object_name = f'{product.}'
+        self.assertEqual(expected_object_name, '')
+
+    
+
+    
