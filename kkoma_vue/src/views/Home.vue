@@ -16,10 +16,24 @@
           <h2 class="is-size-2 has-text-centered">Ultimos productos</h2>
       </div>
 
-      <ProductBox 
+      <div
+        class="column is-3"
         v-for="product in latestProducts"
         v-bind:key="product.id"
-        v-bind:product="product" />
+      >
+
+        <div class="box">
+          <figure class="image mb-4">
+            <img :src="product.get_thumbnail">
+          </figure>
+
+          <h3 class="is-size-4">{{ product.name }}</h3>
+          <p class="is-size-6 has-text-grey">${{ product.price }}</p>
+
+          View details
+
+        </div>
+      </div>
     </div>
   </div>
 </template>
