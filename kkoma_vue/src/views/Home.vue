@@ -1,14 +1,64 @@
 <template>
   <div class="home">
-      Home
+    <section class="hero is-medium is-dark mb-6">
+        <div class="hero-body has-text-centered">
+            <p class="title mb-10">
+                ¡Bienvenido a Kkoma!
+            </p>
+            <p class="subtitle">
+                El mejor lugar para comprar tu mandado.
+            </p>
+        </div>
+    </section>
+
+    <div class="columns is-multiline">
+      <div class="column is-12">
+          <h2 class="is-size-2 has-text-centered">Ultimos productos</h2>
+      </div>
+
+      <ProductBox 
+        v-for="product in latestProducts"
+        v-bind:key="product.id"
+        v-bind:product="product" />
+    </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
 
 export default {
   name: 'Home',
+  data() {
+    return {
+      latestProducts: []
+    }
+  },
   components: {
+  },
+  mounted() {
+    this.getLatestProducts()
+  },
+  methds: {
+    getLatestProducts() {
+      axios
+        .get('/api/v1/latest-products')
+        .then(response => {
+          this.latestProducts = response.data
+        })
+        .catch(error => {
+          console.log(error)
+        })
+    }
   }
 }
 </script>
+
+
+<style scoped>
+  .image {
+    margin-top: -1.25rem;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+  }
+</style>
