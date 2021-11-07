@@ -1,10 +1,9 @@
 from django.shortcuts import Http404
-from rest_framework.serializers import Serializer
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from .models import Category, Product
+from .models import Product
 from .serializers import ProductSerializer
 
 class LatestProductList(APIView):
@@ -25,4 +24,3 @@ class ProductDetail(APIView):
         product = self.get_object(category_slug, product_slug)
         serializer = ProductSerializer(product)
         return Response(serializer.data)
-
