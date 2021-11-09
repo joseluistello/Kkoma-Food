@@ -33,8 +33,8 @@
         </div>
 
         <div class="navbar-end">
-          <router-link to="/carnes" class="navbar-item">Carnes</router-link>
-          <router-link to="/pescado" class="navbar-item">Pescado</router-link>
+          <router-link to="/summer" class="navbar-item">Summer</router-link>
+            <router-link to="/winter" class="navbar-item">Winter</router-link>
 
           <div class="navbar-item">
             <div class="buttons">
@@ -48,7 +48,7 @@
 
               <router-link to="/cart" class="button is-success">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
-                <span>Cart ({{ cartTotalLength }})</span>
+                <span>Cart</span>
               </router-link>
             </div>
           </div>

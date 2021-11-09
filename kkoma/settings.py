@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'djoser',
+    
     'product',
 ]
 
@@ -139,7 +140,3 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-CORS_ORIGIN_WHITELIST = (
-    'localhost:8080',
-)
