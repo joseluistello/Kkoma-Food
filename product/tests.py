@@ -21,7 +21,7 @@ class ProductModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls) -> None:
-        Product.objects.create(name='Pepsi', slug='/Pepsi-600-ml', description='Compre en paquetes de 6', price='$600', image='pepsi.jpge', thumbnail='pepsi1.jpge', data_added='500')
+        Product.objects.create(name='Pepsi', slug='/Pepsi-600-ml', description='Compre en paquetes de 6', price='6.00', image='pepsi.jpge', thumbnail='pepsi1.jpge', data_added='500')
 
     def test_category_content(self):
         product = Product.objects.get(id=1)
@@ -46,7 +46,7 @@ class ProductModelTest(TestCase):
     def test_price_content(self):
         product = Product.objects.get(id=1)
         expected_object_name = f'{product.price}'
-        self.assertEqual(expected_object_name, '$600')
+        self.assertEqual(expected_object_name, '6.00')
 
     def test_image_content(self):
         product = Product.objects.get(id=1)
@@ -62,4 +62,5 @@ class ProductModelTest(TestCase):
         product = Product.objects.get(id=1)
         expected_object_name = f'{product.data_added}'
         self.assertEqual(expected_object_name, '500')
-    
+
+
