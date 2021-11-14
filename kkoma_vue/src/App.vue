@@ -17,7 +17,7 @@
             <form method="get" action="/search">
               <div class="field has-addons">
                 <div class="control">
-                  <input type="text" class="input" placeholder="What are you looking for?" name="query">
+                  <input type="text" class="input" placeholder="¿Que es lo que buscas?" name="query">
                 </div>
 
                 <div class="control">
@@ -33,8 +33,8 @@
         </div>
 
         <div class="navbar-end">
-          <router-link to="/summer" class="navbar-item">Summer</router-link>
-            <router-link to="/winter" class="navbar-item">Winter</router-link>
+          <router-link to="/summer" class="navbar-item">PerroFrito</router-link>
+            <router-link to="/winter" class="navbar-item">Tacosdecebolla</router-link>
 
           <div class="navbar-item">
             <div class="buttons">
