@@ -50,6 +50,8 @@ export default {
   },
   mounted() {
     this.getLatestProducts()
+
+    document.title = 'Kkoma'
   },
   methods: {
     async getLatestProducts() {
@@ -59,6 +61,7 @@ export default {
         .get('/api/v1/latest-products/')
         .then(response => {
           this.latestProducts = response.data
+          
         })
         .catch(error => {
           console.log(error)
