@@ -83,6 +83,9 @@ export default {
   beforeCreate() {
     this.$store.commit('initialzeStore')
   },
+  mounted() {
+    this.cart = this.$store.state.cart
+  },
   computed: {
     cartTotalLength() {
       let totalLength = 0
