@@ -1,11 +1,11 @@
 from django.shortcuts import Http404
-from rest_framework.serializers import Serializer
+
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from .models import Category, Product
-from .serializers import CategorySerializer, ProductSerializer
+from .models import Product, Category
+from .serializers import ProductSerializer, CategorySerializer
 
 
 ### Te permite crear y mostrar una lista de productos en home
@@ -33,7 +33,7 @@ class CategoryDetail(APIView):
     def get_object(self, category_slug):
         try:
             return Category.objects.get(slug=category_slug)
-        except Product.DoesNotExist:
+        except Category.DoesNotExist:
             raise Http404
     
     def get(self, request, category_slug, format=None):
