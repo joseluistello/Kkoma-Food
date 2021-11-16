@@ -33,8 +33,8 @@
         </div>
 
         <div class="navbar-end">
-          <router-link to="/summer" class="navbar-item">PerroFrito</router-link>
-            <router-link to="/winter" class="navbar-item">Tacosdecebolla</router-link>
+          <router-link to="/carnes" class="navbar-item">Carnes</router-link>
+            <router-link to="/verduras" class="navbar-item">Verduras</router-link>
 
           <div class="navbar-item">
             <div class="buttons">
