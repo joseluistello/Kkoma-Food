@@ -1,10 +1,11 @@
 from django.shortcuts import Http404
+from rest_framework.serializers import Serializer
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from .models import Category, Product
-from .serializers import ProductSerializer
+from .serializers import CategorySerializer, ProductSerializer
 
 
 ### Te permite crear y mostrar una lista de productos en home
@@ -36,4 +37,6 @@ class CategoryDetail(APIView):
             raise Http404
     
     def get(self, request, category_slug, format=None):
-        category = se
+        category = self.get_object(category_slug)
+        serializer = CategorySerializer(category)
+        return Response(serializer.data)
