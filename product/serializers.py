@@ -25,4 +25,4 @@ class CategorySerializer(serializers.ModelSerializer):
             "name",
             "get_absolute_url",
             "products",
-            )
+        )
