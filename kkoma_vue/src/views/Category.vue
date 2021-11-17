@@ -41,7 +41,7 @@ export default {
                     console.log(error)
 
                     toast({
-                        message: 'Something went wrong. Please try again.',
+                        message: 'No sale el pinche request guango',
                         type: 'is-danger',
                         dismissible: true,
                         pauseOnHover: true,
