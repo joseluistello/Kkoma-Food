@@ -47,12 +47,12 @@ export default {
                 .get(`/api/v1/products/${categorySlug}/`)
                 .then(response => {
                     this.category = response.data
-                    document.title = this.category.name + ' | Djackets'
+                    document.title = this.category.name + ' | Kkoma.com'
                 })
                 .catch(error => {
                     console.log(error)
                     toast({
-                        message: 'Something went wrong. Please try again.',
+                        message: 'Algo no esta funcionando.',
                         type: 'is-danger',
                         dismissible: true,
                         pauseOnHover: true,
