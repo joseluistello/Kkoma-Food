@@ -3,10 +3,10 @@
     <section class="hero is-medium is-dark mb-6">
         <div class="hero-body has-text-centered">
             <p class="title mb-10">
-                ¡Bienvenido a Kkoma!
+                ¡Bienvenidx a Kkoma!
             </p>
             <p class="subtitle">
-                El mejor lugar para comprar tu mandado.
+                ¡Comprar tu mandado nunca fue tan facil!
             </p>
         </div>
     </section>
