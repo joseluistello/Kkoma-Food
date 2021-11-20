@@ -2,7 +2,7 @@
     <div class="page-search">
         <div class="columns is-multiline">
             <div class="column is-12">
-                <h1 class="title">Resultados</h1>
+                <h1 class="title">Resultados de busqueda</h1>
 
                 <h2 class="is-size-5 has-text-grey">Productos: "{{ query }}"</h2>
             </div>
