@@ -2,9 +2,9 @@
     <div class="page-search">
         <div class="columns is-multiline">
             <div class="column is-12">
-                <h1 class="title">Resultados de busqueda</h1>
+                <h1 class="title">Resultado de tu busqueda</h1>
 
-                <h2 class="is-size-5 has-text-grey">Productos: "{{ query }}"</h2>
+                <h2 class="is-size-5 has-text-grey">Productos encontrados: "{{ query }}"</h2>
             </div>
 
             <ProductBox 
@@ -32,7 +32,7 @@ export default {
         }
     },
     mounted() {
-        document.title = ' Busqueda | Kkoma.com'
+        document.title = ' Busqueda de productos | Kkoma.com'
         let uri = window.location.search.substring(1)
         let params = new URLSearchParams(uri)
         if (params.get('query')) {
