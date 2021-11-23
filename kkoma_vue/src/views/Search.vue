@@ -4,7 +4,7 @@
             <div class="column is-12">
                 <h1 class="title">Resultado de tu busqueda</h1>
 
-                <h2 class="is-size-5 has-text-grey">Productos encontrados: "{{ query }}"</h2>
+                <h2 class="is-size-5 has-text-grey">Productos relacionados con "{{ query }}"</h2>
             </div>
 
             <ProductBox 
