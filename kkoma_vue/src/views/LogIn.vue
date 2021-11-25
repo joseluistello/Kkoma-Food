@@ -2,7 +2,7 @@
     <div class="page-log-in">
         <div class="columns">
             <div class="column is-4 is-offset-4">
-                <h1 class="title">Log in</h1>
+                <h1 class="title">Inicia sesion con tu usuario</h1>
 
                 <form @submit.prevent="submitForm">
                     <div class="field">
