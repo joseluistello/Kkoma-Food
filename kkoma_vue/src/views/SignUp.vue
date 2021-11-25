@@ -2,7 +2,7 @@
     <div class="page-sign-up">
         <div class="columns">
             <div class="column is-4 is-offset-4">
-                <h1 class="title">Entra con tu usuario</h1>
+                <h1 class="title">¡Registrate!</h1>
 
                 <form @submit.prevent="submitForm">
                     <div class="field">
