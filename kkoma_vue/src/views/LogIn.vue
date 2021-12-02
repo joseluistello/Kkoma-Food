@@ -25,7 +25,7 @@
 
                     <div class="field">
                         <div class="control">
-                            <button class="button is-dark">Log in</button>
+                            <button class="button is-dark">Iniciar Sesion</button>
                         </div>
                     </div>
 
@@ -40,6 +40,7 @@
 
 <script>
 import axios from 'axios'
+
 export default {
     name: 'LogIn',
     data() {
@@ -50,7 +51,7 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Inicio Sesion | Kkoma'
+        document.title = 'Log In | Djackets'
     },
     methods: {
         async submitForm() {
@@ -68,7 +69,7 @@ export default {
                     
                     axios.defaults.headers.common["Authorization"] = "Token " + token
                     localStorage.setItem("token", token)
-                    const toPath = this.$route.query.to || '/cart'
+                    const toPath = this.$route.query.to || '/'
                     this.$router.push(toPath)
                 })
                 .catch(error => {
@@ -77,7 +78,7 @@ export default {
                             this.errors.push(`${property}: ${error.response.data[property]}`)
                         }
                     } else {
-                        this.errors.push('Algo sucedio. Por favor, intenta de nuevo.')
+                        this.errors.push('Algo salio mal. Intenta de nuevo.')
                         
                         console.log(JSON.stringify(error))
                     }

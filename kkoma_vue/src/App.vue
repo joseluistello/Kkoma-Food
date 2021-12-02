@@ -38,6 +38,7 @@
 
           <div class="navbar-item">
             <div class="buttons">
+
               <template v-if="$store.state.isAuthenticated">
                 <router-link to="/my-account" class="button is-light">Mi cuenta</router-link>
               </template>
@@ -50,6 +51,7 @@
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
                 <span>Cart ({{ cartTotalLength }})</span>
               </router-link>
+              
             </div>
           </div>
         </div>
