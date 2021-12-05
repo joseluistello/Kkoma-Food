@@ -151,7 +151,28 @@ export default {
             return item.quantity * item.product.price
         },
         submitForm() {
-            
+            this.errors = []
+            if (this.first_name === '') {
+                this.errors.push('¡Falta tu primer nombre!')
+            }
+            if (this.last_name === '') {
+                this.errors.push('¡Debes colocar tu apellido!')
+            }
+            if (this.email === '') {
+                this.errors.push('El email no es correcto')
+            }
+            if (this.phone === '') {
+                this.errors.push('Algun numero del telefono esta equivocado.')
+            }
+            if (this.address === '') {
+                this.errors.push('¿La direccion esta equivocada?')
+            }
+            if (this.zipcode === '') {
+                this.errors.push('Tu codigo postal esta equivocado')
+            }
+            if (this.place === '') {
+                this.errors.push('Algo falta, verificalo.')
+            }
         }
     },
     computed: {
