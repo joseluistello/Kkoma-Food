@@ -47,7 +47,7 @@
 import axios from 'axios'
 
 export default {
-    name: 'CheckOut',
+    name: 'Checkout',
     data() {
         return {
             cart: {
@@ -71,8 +71,8 @@ export default {
         this.cart = this.$store.state.cart
     },
     methods: {
-        getItemTotal() {
-            return item.quantity + item.product.price
+        getItemTotal(item) {
+            return item.quantity * item.product.price
         },
     },
     computed: {
