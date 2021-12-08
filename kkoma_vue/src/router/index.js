@@ -11,7 +11,7 @@ import Cart from '../views/Cart.vue'
 import SignUp from '../views/SignUp.vue'
 import LogIn from '../views/LogIn.vue'
 import MyAccount from '../views/MyAccount.vue'
-import CheckOut from '../views/CheckOut.vue'
+import Checkout from '../views/Checkout.vue'
 import Success from '../views/Success.vue'
 
 const routes = [
@@ -64,7 +64,7 @@ const routes = [
   {
     path: '/cart/checkout',
     name: 'Checkout',
-    component: CheckOut,
+    component: Checkout,
     meta: {
         requiredLogin: true
     }

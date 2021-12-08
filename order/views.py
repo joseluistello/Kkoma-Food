@@ -26,7 +26,7 @@ def checkout(request):
         try:
             charge = stripe.Charge.create(
                 amount=int(paid_amount * 100),
-                currency='MXP',
+                currency='USD',
                 description='Cambio por Kkoma',
                 source=serializer.validated_data['stripe_token']
             )
