@@ -84,6 +84,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'kkoma.wsgi.application'
 
 
