@@ -58,6 +58,8 @@
       </div>
     </nav>
 
+
+
     <div class="is-loading-bar has-text-centered" v-bind:class="{'is-loading': $store.state.isLoading }">
       <div class="lds-dual-ring"></div>
     </div>
@@ -67,8 +69,13 @@
     </section>
 
     <footer class="footer">
-      <p class="has-text-centered">Copyright (c) 2021</p>
+      <div class="content has-text-centered">
+        <p>
+          <strong>Kkoma</strong> by <a href="https://joseluistello.live/">José Luis Tello</a>.
+        </p>
+      </div>
     </footer>
+
   </div>
 </template>
 
