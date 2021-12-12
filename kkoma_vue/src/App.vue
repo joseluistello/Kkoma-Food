@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="control">
-                  <button class="button is-success">
+                  <button class="button is-info">
                       <span class="icon">
                       <i class="fas fa-search"></i>
                       </span>
@@ -47,9 +47,9 @@
                 <router-link to="/log-in" class="button is-light">Iniciar Sesion</router-link>
               </template>
 
-              <router-link to="/cart" class="button is-success">
+              <router-link to="/cart" class="button is-info">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
-                <span>Cart ({{ cartTotalLength }})</span>
+                <span> {{ cartTotalLength }}</span>
               </router-link>
               
             </div>
