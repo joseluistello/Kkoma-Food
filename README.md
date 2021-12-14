@@ -1,6 +1,6 @@
 # Local Service Startup 
 
-A full stack web application for instant grocery and retail delivery
+A full stack web application for instant grocery and retail delivery build with Django Rest Framework and Vue.js
 
 [1. Domain](#1-Domain)
 
