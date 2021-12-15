@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <nav class="navbar is-dark">
+    <nav class="navbar is-light">
       <div class="navbar-brand">
         <router-link to="/" class="navbar-item"><strong>Kkoma</strong></router-link>
 
@@ -40,11 +40,11 @@
             <div class="buttons">
 
               <template v-if="$store.state.isAuthenticated">
-                <router-link to="/my-account" class="button is-light">Mi cuenta</router-link>
+                <router-link to="/my-account" class="button is-dark">Mi cuenta</router-link>
               </template>
 
               <template v-else>
-                <router-link to="/log-in" class="button is-light">Iniciar Sesion</router-link>
+                <router-link to="/log-in" class="button is-dark">Iniciar Sesion</router-link>
               </template>
 
               <router-link to="/cart" class="button is-info">
