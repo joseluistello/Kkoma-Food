@@ -19,3 +19,20 @@ A full stack web application for instant grocery and retail delivery build with 
 [3. How to run](#3-How-to-run)
 
 &nbsp;&nbsp;[3.1 Installation](#31-installation)
+
+--- 
+
+## 1. Domain
+
+### 1.1 Description
+
+**Definition:**
+
+> Domain - A sphere of knowledge, influence, or activity. The subject area to which the user applies a program is the domain of the software. [Domain-Driven Design Reference](http://domainlanguage.com/ddd/reference/), Eric Evans
+
+**Main reason for selecting this domain:**
+
+- I want to have more experience with different domains
+
+The main project entitie are `users` and `products`. A person becomes a `user` by registering.
+
