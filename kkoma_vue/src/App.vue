@@ -1,5 +1,7 @@
 <template>
   <div id="wrapper">
+
+
     <nav class="navbar is-light">
       <div class="navbar-brand">
         <router-link to="/" class="navbar-item"><strong>Kkoma</strong></router-link>
@@ -33,8 +35,38 @@
         </div>
 
         <div class="navbar-end">
-          <router-link to="/carnes" class="navbar-item">Carnes</router-link>
-            <router-link to="/verduras" class="navbar-item">Verduras</router-link>
+
+          
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Más departamentos
+            </a>
+
+            <div class="navbar-dropdown">
+              <router-link to="/carnes" class="navbar-item">
+                Bebidas
+              </router-link>
+
+              <router-link to="/carnes" class="navbar-item">
+                Farmacia
+              </router-link>
+
+
+              <router-link to="/carnes" class="navbar-item">
+                Mascotas
+              </router-link>
+
+            </div>
+          </div>
+          
+
+          <router-link to="/carnes" class="navbar-item">Frutas y verduras</router-link>
+          <router-link to="" class="navbar-item"></router-link>
+          <router-link to="/verduras" class="navbar-item">Carnes y Pescados</router-link>
+          <router-link to="" class="navbar-item"></router-link>
+          <router-link to="" class="navbar-item">Lácteos y Huevo</router-link>
+          <router-link to="" class="navbar-item"></router-link>
+          <router-link to="" class="navbar-item">Granel</router-link>
 
           <div class="navbar-item">
             <div class="buttons">
@@ -54,15 +86,27 @@
               
             </div>
           </div>
+
         </div>
+
+
       </div>
     </nav>
+
+
+
+
 
 
 
     <div class="is-loading-bar has-text-centered" v-bind:class="{'is-loading': $store.state.isLoading }">
       <div class="lds-dual-ring"></div>
     </div>
+
+
+
+
+
 
     <section class="section">
       <router-view/>
