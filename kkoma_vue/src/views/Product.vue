@@ -14,7 +14,7 @@
             <div class="column is-3">
                 <h2 class="subtitle">Informacion</h2>
 
-                <p><strong>Price: </strong>${{ product.price }}</p>
+                <p><strong>Precio: </strong>${{ product.price }}</p>
 
                 <div class="field has-addons mt-6">
                     <div class="control">
@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="control">
-                        <a class="button is-dark" @click="addToCart">Add to cart</a>
+                        <a class="button is-dark" @click="addToCart">Añadir</a>
                     </div>
 
                 </div>

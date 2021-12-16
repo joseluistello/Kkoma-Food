@@ -43,16 +43,16 @@
             </a>
 
             <div class="navbar-dropdown">
-              <router-link to="/carnes" class="navbar-item">
+              <router-link to="/bebidas" class="navbar-item">
                 Bebidas
               </router-link>
 
-              <router-link to="/carnes" class="navbar-item">
+              <router-link to="/farmacia" class="navbar-item">
                 Farmacia
               </router-link>
 
 
-              <router-link to="/carnes" class="navbar-item">
+              <router-link to="/mascotas" class="navbar-item">
                 Mascotas
               </router-link>
 
@@ -60,13 +60,13 @@
           </div>
           
 
-          <router-link to="/carnes" class="navbar-item">Frutas y verduras</router-link>
+          <router-link to="/frutasyverduras" class="navbar-item">Frutas y verduras</router-link>
           <router-link to="" class="navbar-item"></router-link>
-          <router-link to="/verduras" class="navbar-item">Carnes y Pescados</router-link>
+          <router-link to="/carnesypescados" class="navbar-item">Carnes y Pescados</router-link>
           <router-link to="" class="navbar-item"></router-link>
-          <router-link to="" class="navbar-item">Lácteos y Huevo</router-link>
+          <router-link to="/lacteosyhuevo" class="navbar-item">Lácteos y Huevo</router-link>
           <router-link to="" class="navbar-item"></router-link>
-          <router-link to="" class="navbar-item">Granel</router-link>
+          <router-link to="/granel" class="navbar-item">Granel</router-link>
 
           <div class="navbar-item">
             <div class="buttons">
