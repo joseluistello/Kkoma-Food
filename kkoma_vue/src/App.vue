@@ -45,7 +45,7 @@
             <div class="navbar-dropdown">
               <router-link to="/bebidas" class="navbar-item">
                 Bebidas
-              </router-link>
+              </router-link>  
 
               <router-link to="/farmacia" class="navbar-item">
                 Farmacia
