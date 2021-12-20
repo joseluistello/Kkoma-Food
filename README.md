@@ -2,7 +2,7 @@
 
 ### 🛑 UNDER CONSTRUCTION 🛑
 
-A full stack web application for instant grocery and retail delivery build with Django Rest Framework, Vue.js, Bulma and Stripe
+Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
 
 [1. Domain](#1-Domain)
 
