@@ -4,19 +4,30 @@
 
 Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
 
-[1. Domain](#1-Domain)
+[1. First Part](#1-first-part)
 
-&nbsp;&nbsp;[1.1 Description](#11-description)
+&nbsp;&nbsp;[1.1 Abstract](#11-description)
 
-&nbsp;&nbsp;[1.2 CRD Model](#12-CRD-Model)
+&nbsp;&nbsp;[1.2 Acronyms](#12-acronyms)
 
-&nbsp;&nbsp;[1.3 Event Storming](#13-Event-Storming)
+&nbsp;&nbsp;[1.3 Goals](#13-goals)
 
-[2. Architecture](#2-Architecture)
+&nbsp;&nbsp;[1.4 Stakeholders](#14-stakeholders)
 
-&nbsp;&nbsp;[2.0 C4 Model](#20-C4-model)
+&nbsp;&nbsp;[1.5 Assumptions](#15-assumptions)
 
-&nbsp;&nbsp;[2.1 System Container Context C1-C2](#21-System-container-context-c1-c2)
+&nbsp;&nbsp;[1.6 Limitations & Unknowns](#16-limitations-and-unknowns)
+
+&nbsp;&nbsp;[1.7 Use-cases](#17-use-cases)
+
+&nbsp;&nbsp;[1.8 Out of Scope](#18-out-of-scope)
+
+
+[2. Proposal](#2-Proposal)
+
+&nbsp;&nbsp;[2.0 Architecture](#20-architecture)
+
+&nbsp;&nbsp;[2.1 Architecture Diagram](#21-architecture-diagram)
 
 [3. How to run](#3-How-to-run)
 
@@ -28,13 +39,5 @@ Full Stack Web Application for Instant Grocery and Retail Delivery. Build with D
 
 ### 1.1 Description
 
-**Definition:**
 
-> Domain - A sphere of knowledge, influence, or activity. The subject area to which the user applies a program is the domain of the software. [Domain-Driven Design Reference](http://domainlanguage.com/ddd/reference/), Eric Evans
-
-**Main reason for selecting this domain:**
-
-- I want to have more experience with different domains
-
-The main project entitie are `users` and `products`. A person becomes a `user` by registering.
 
