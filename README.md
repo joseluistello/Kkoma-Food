@@ -35,9 +35,20 @@ Full Stack Web Application for Instant Grocery and Retail Delivery. Build with D
 
 --- 
 
-## 1. Domain
+## 1. First Part
 
-### 1.1 Description
+### 1.1 Abstract
 
+### 1.2 Acronyms
 
+### 1.3 Goals
 
+### 1.4 Stakeholders
+
+### 1.5 Assumptions
+
+### 1.6 Limitations & Unknowns
+
+### 1.7 Use-cases
+
+### 1.8 Out of Scope
