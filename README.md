@@ -44,18 +44,28 @@ This project aims to replicate the functionality of startups such as Justo or JO
 
 ### 1.3 Goals
 
+Provide a system architecture that allows users to make online grocery purchases. 
 
-
-Additionally, this project targets the open-source software development community, to share the code of this project, as long as guidance/practices/methodologies used in its development.
+Additionally, this project targets the open-source software development community
 
 ### 1.4 Stakeholders
 - Project Owner: [Jose Luis Tello](https://joseluistello.live/fijacion-de-precios)
 - Open-source community: Anyone interested in copying, manipulating and reproducing this software for learning purposes.
 
 ### 1.5 Assumptions
+- 
 
 ### 1.6 Limitations & Unknowns
+-
 
 ### 1.7 Use-cases
+-
 
 ### 1.8 Out of Scope
+-
+
+## 2. Proposal
+
+### 2.1 Architecture
+
+### 2.2 Architecture diagram
