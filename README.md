@@ -1,8 +1,8 @@
-# Local Service Startup 
+# Kkoma
 
-### 🛑 UNDER CONSTRUCTION 🛑
+## High Level Design
 
-Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
+### Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
 
 [1. First Part](#1-first-part)
 
@@ -44,6 +44,10 @@ This project aims to replicate the functionality of startups such as Justo or JO
 ### 1.2 Acronyms
 
 ### 1.3 Goals
+
+
+
+Additionally, this project targets the open-source software development community, to share the code of this project, as long as guidance/practices/methodologies used in its development.
 
 ### 1.4 Stakeholders
 - Project Owner: [Jose Luis Tello](https://joseluistello.live/fijacion-de-precios)
