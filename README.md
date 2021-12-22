@@ -17,7 +17,7 @@
 
 &nbsp;&nbsp;[1.6 Limitations & Unknowns](#16-limitations-and-unknowns)
 
-&nbsp;&nbsp;[1.7 Supported use-cases](#17supported-use-cases)
+&nbsp;&nbsp;[1.7 Supported use-cases](#17-supported-use-cases)
 
 &nbsp;&nbsp;[1.8 Out of Scope](#18-out-of-scope)
 
