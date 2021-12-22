@@ -39,11 +39,15 @@ Full Stack Web Application for Instant Grocery and Retail Delivery. Build with D
 
 ### 1.1 Abstract
 
+This project aims to replicate the functionality of startups such as Justo or JOKR. It is a platform I created to learn how to develop full-stack projects.
+
 ### 1.2 Acronyms
 
 ### 1.3 Goals
 
 ### 1.4 Stakeholders
+- Project Owner: [Jose Luis Tello](https://joseluistello.live/fijacion-de-precios)
+- Open-source community: Anyone interested in copying, manipulating and reproducing this software for learning purposes.
 
 ### 1.5 Assumptions
 
