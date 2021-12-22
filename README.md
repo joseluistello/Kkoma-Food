@@ -17,7 +17,7 @@
 
 &nbsp;&nbsp;[1.6 Limitations & Unknowns](#16-limitations-and-unknowns)
 
-&nbsp;&nbsp;[1.7 Use-cases](#17-use-cases)
+&nbsp;&nbsp;[1.7 Supported use-cases](#17supported-use-cases)
 
 &nbsp;&nbsp;[1.8 Out of Scope](#18-out-of-scope)
 
@@ -58,9 +58,9 @@ Additionally, this project targets the open-source software development communit
 - Django Rest Framework was chosen to create the Rest API used in the backend
 
 ### 1.6 Limitations & Unknowns
--
+- 
 
-### 1.7 Use-cases
+### 1.7 Supported use-cases
 -
 
 ### 1.8 Out of Scope
