@@ -1,6 +1,5 @@
 # Kkoma
-
-## High Level Design
+### High Level Design
 
 ### Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
 
