@@ -53,7 +53,9 @@ Additionally, this project targets the open-source software development communit
 - Open-source community: Anyone interested in copying, manipulating and reproducing this software for learning purposes.
 
 ### 1.5 Assumptions
-- 
+- Products are separated by category 
+- Each category represents a set of related products 
+- Django Rest Framework was chosen to create the Rest API used in the backend
 
 ### 1.6 Limitations & Unknowns
 -
@@ -62,7 +64,8 @@ Additionally, this project targets the open-source software development communit
 -
 
 ### 1.8 Out of Scope
--
+- Real-time GPS
+- 
 
 ## 2. Proposal
 
