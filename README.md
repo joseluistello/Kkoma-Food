@@ -42,11 +42,13 @@ This project aims to replicate the functionality of startups such as Justo or JO
 
 ### 1.2 Acronyms
 
+- DRF: Django Rest Framework
+- DB: Database
+- API: Application Programming Interface 
+
 ### 1.3 Goals
 
-Provide a system architecture that allows users to make online grocery purchases. 
-
-Additionally, this project targets the open-source software development community
+Provide a system architecture that allows users to make online grocery purchases. Additionally, this project targets the open-source software development community
 
 ### 1.4 Stakeholders
 - Project Owner: [Jose Luis Tello](https://joseluistello.live/fijacion-de-precios)
@@ -56,16 +58,21 @@ Additionally, this project targets the open-source software development communit
 - Products are separated by category 
 - Each category represents a set of related products 
 - Django Rest Framework was chosen to create the Rest API used in the backend
+- Continuous integration with Stripe
 
 ### 1.6 Limitations & Unknowns
-- 
+- The currency selected is USD
+- Stripe Support
 
 ### 1.7 Supported use-cases
--
+- Users can find products through a search engine
+- Users can view their purchase history
+- Users can buy an unlimited number of products 
+- System is able to send notifications at any part of the purchasing process
 
 ### 1.8 Out of Scope
 - Real-time GPS
-- 
+- Reviews
 
 ## 2. Proposal
 
