@@ -30,6 +30,9 @@
 
 &nbsp;&nbsp;[2.1 Architecture Diagram](#21-architecture-diagram)
 
+&nbsp;&nbsp;[2.2 Stripe Integration](#22-stripe-integration)
+
+
 [3. How to run](#3-How-to-run)
 
 &nbsp;&nbsp;[3.1 Installation](#31-installation)
