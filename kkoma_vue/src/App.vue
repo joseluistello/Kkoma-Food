@@ -52,7 +52,7 @@
               </router-link>
 
 
-              <router-link to="/mascotas" class="navbar-item">
+              <router-link to="/mascota" class="navbar-item">
                 Mascotas
               </router-link>
 
