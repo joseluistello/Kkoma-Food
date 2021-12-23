@@ -3,6 +3,8 @@
 
 ### Full Stack Web Application for Instant Grocery and Retail Delivery. Build with Django Rest Framework, Vue.js, Bulma and Stripe.
 
+[Kkoma](https://user-images.githubusercontent.com/65988061/147229494-358b6e27-7e50-4088-9c10-4e011f6d8ae1.mp4)
+
 [1. First Part](#1-first-part)
 
 &nbsp;&nbsp;[1.1 Abstract](#11-description)
