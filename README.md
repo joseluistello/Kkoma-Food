@@ -83,4 +83,8 @@ Provide a system architecture that allows users to make online grocery purchases
 
 ### 2.1 Architecture
 
-### 2.2 Architecture diagram
+### 2.2 Architecture Diagram
+
+### 2.3 Stripe Integration
+
+![stripeeeeeee](https://user-images.githubusercontent.com/65988061/147230582-f4675dfe-8327-47b9-81d2-e47d889f3c60.gif)
