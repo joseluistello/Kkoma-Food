@@ -83,7 +83,7 @@ Provide a system architecture that allows users to make online grocery purchases
 
 ### 2.1 Architecture
 
-El sistema propuesto usara Django Rest Framework para crear el API que se comunicara con la base de datos y recibira peticiones desde el frontend creado con Vue.js y Bulma. El sistema tendra una integracion con la API de Stripe para procesar pagos. 
+The proposed system will use Django Rest Framework to create the API that will communicate with the database and receive requests from a frontend interface created with Vue.js and Bulma. The system will have an integration with Stripe API to process payments.
 
 ### 2.2 Architecture Diagram
 
