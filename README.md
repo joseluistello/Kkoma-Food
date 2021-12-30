@@ -32,11 +32,6 @@
 
 &nbsp;&nbsp;[2.2 Stripe Integration](#22-stripe-integration)
 
-
-[3. How to run](#3-How-to-run)
-
-&nbsp;&nbsp;[3.1 Installation](#31-installation)
-
 --- 
 
 ## 1. First Part
@@ -95,6 +90,6 @@ The proposed system will use Django Rest Framework to create the API that will c
 
 ![Level2](https://user-images.githubusercontent.com/65988061/147735349-82b139a1-d087-43ae-9feb-a298626a077f.jpg)
 
-### 2.3 Stripe API
+### 2.3 Stripe Integration
 
 ![stripeeeeeee](https://user-images.githubusercontent.com/65988061/147230582-f4675dfe-8327-47b9-81d2-e47d889f3c60.gif)
