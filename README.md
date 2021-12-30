@@ -26,9 +26,9 @@
 
 [2. Proposal](#2-Proposal)
 
-&nbsp;&nbsp;[2.0 Architecture](#20-architecture-c4)
+&nbsp;&nbsp;[2.0 Architecture](#20-architecture)
 
-&nbsp;&nbsp;[2.1 Architecture Diagram](#21-architecture-diagram)
+&nbsp;&nbsp;[2.1 Architecture Diagram C4](#21-architecture-diagram-c4)
 
 &nbsp;&nbsp;[2.2 Stripe Integration](#22-stripe-integration)
 
@@ -81,7 +81,11 @@ Provide a system architecture that allows users to make online grocery purchases
 
 ## 2. Proposal
 
-### 2.1 Architecture C4
+### 2.1 Architecture 
+
+The proposed system will use Django Rest Framework to create the API that will communicate with the database and receive requests from a frontend interface created with Vue.js and Bulma. The system will have an integration with Stripe API to process payments.
+
+### 2.2 Architecture Diagram C4
 
 ## Level 1: System Context Diagram
 
@@ -90,10 +94,6 @@ Provide a system architecture that allows users to make online grocery purchases
 ## Level 2: Container diagram
 
 ![Level2](https://user-images.githubusercontent.com/65988061/147735349-82b139a1-d087-43ae-9feb-a298626a077f.jpg)
-
-The proposed system will use Django Rest Framework to create the API that will communicate with the database and receive requests from a frontend interface created with Vue.js and Bulma. The system will have an integration with Stripe API to process payments.
-
-### 2.2 Architecture Diagram
 
 ### 2.3 Stripe API
 
