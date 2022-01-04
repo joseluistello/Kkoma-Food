@@ -12,7 +12,7 @@
             <hr>
 
             <div class="column is-12">
-                <h2 class="subtitle">Mis ordenes</h2>
+                <h2 class="subtitle">Historial de ordenes</h2>
 
                 <OrderSummary
                     v-for="order in orders"
